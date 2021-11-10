@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBoom: Sign up page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- This if for header -->
+    <div id="header">
+        <h1><a href="http://www.techboom.in" class="link" target="blank">TechBoom: Register Yourself</a></h1>
+    </div>
+
+    <!-- This is for Signup -->
+    <div id="signup">
+        <form action="#" id="fm">
+            <div>
+                <input type="text" placeholder="First Name" class="name1">
+                <input type="text" placeholder="Last Name" class="name1">
+            </div>
+            <input type="text" placeholder="Enter Your Email" name="txts" placeholder="Enter Your Email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            title="Please enter a valid email address" required class="name1" > <br>
+            <input type="password" placeholder="Enter New Password" id="pswrd" class="name1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            <div>
+                <p style="margin: 5px; padding: 0px;" class="name2">Date of birth</p>
+                <input type="date" class="name1">
+            </div>
+            <div>
+                <p style="margin: 5px; padding: 0px;" class="name2">Gender</p>
+               <span style="color: blanchedalmond;"> <input type="radio" name="gender" class="name2"> Male <input type="radio" name="gender"
+                    class="name2"> Female <input type="radio" name="gender" class="name2"> Other</span>
+            </div>
+            <div style="color: blanchedalmond;">
+                <input type="checkbox"> Accept terms & conditions
+            </div>
+            <div>
+                <button class="btn2">Sign up</button>
+                <input type="reset" class="btn2">
+                
+            </div>
+           <p style="color: blanchedalmond;"> Already an account?</p> <button class="btn2"><a href="index1.html" class="btn7">Login</a></button>
+
+
+
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
